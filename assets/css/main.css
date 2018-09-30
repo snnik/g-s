@@ -145,7 +145,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #f35858;
+			color: #0200ff;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
@@ -220,7 +220,7 @@ input, select, textarea {
 
 		header > p {
 			display: block;
-			color: #f35858;
+			color: #0200ff;
 			padding: 0.75em 0 1em 0;
 			font-size: 1.5em;
 			line-height: 1.5em;
@@ -2021,8 +2021,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			color: #f35858;
-			border-color: rgba(243, 88, 88, 0.5);
+			color: #1324f3;
+			border-color: rgba(52, 243, 77, 0.84);
 		}
 
 /* Icons */
@@ -2081,31 +2081,12 @@ input, select, textarea {
 	#header-wrapper {
 		position: relative;
 		padding: 4em 0 2em 0;
-		background-image: url("images/header.svg");
-		background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #0200ff 15%, #53f2cf 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #0200ff 15%, #53f2cf 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #0200ff 15%, #53f2cf 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #0200ff 15%, #53f2cf 55%);
-		background-color: #53f2cf;
-		background-size: 100% 620%;
-		background-size: 128px 128px, 100% 620%, auto;
-		background-repeat: repeat, no-repeat, no-repeat;
+		background-image: url("images/head.jpg");
+		background-size: 100% 200%;
+		ackground-size: contain;
+		background-repeat: no-repeat;
 	}
 
-	.homepage #header-wrapper {
-		padding: 10em 0 6em 0;
-		background-size: 128px 128px, 100% 100%, auto;
-	}
-
-	#promo-wrapper {
-		position: relative;
-		background-image: url("images/overlay.png"), url("../../images/promo.jpg");
-		background-size: 192px 192px, cover;
-		background-position: top left, center center;
-		color: #fff;
-		text-align: center;
-		padding: 6em 0 6em 0;
-	}
 
 	#footer-wrapper {
 		-webkit-transform: translate3d(0, 0, 0);
@@ -2289,7 +2270,7 @@ input, select, textarea {
 		#hero .button {
 			background: #fff;
 			border-color: rgba(255, 255, 255, 0);
-			color: #f08c89;
+			color: #34f34d;
 			font-size: 1.25em;
 		}
 
