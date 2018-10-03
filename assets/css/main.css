@@ -2072,7 +2072,7 @@ input, select, textarea {
 		}
 
 		.image-wrapper.first:before {
-			content: '';
+			'content: '';
 			display: block;
 			width: 2000%;
 			height: 100%;
@@ -2082,6 +2082,15 @@ input, select, textarea {
 			z-index: 1;
 			box-shadow: inset 0px 0px 0px 1px #e8e8e8;
 			background: #f6f8fb url("images/image-wrapper.svg");
+		}
+
+		.image-wrapper div {
+			display: inline-block;
+			position: absolute;
+			bottom: 10px; left: 0px;
+			background-color: rgba(0, 0, 0, 0);
+			padding: 5px 5px 5px 10px;
+			color: rgb(255, 255, 255);
 		}
 
 	#header-wrapper {
